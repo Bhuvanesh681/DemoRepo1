@@ -14,5 +14,6 @@ public class ParameterTest {
 		driver=new ChromeDriver();
 		System.out.println(url);
 		System.out.println(email);
+		System.out.println("****$$$");
 	}
 }
