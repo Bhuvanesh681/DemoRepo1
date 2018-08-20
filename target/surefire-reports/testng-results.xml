@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="3957" started-at="2018-07-26T16:11:05Z" finished-at="2018-07-26T16:11:09Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="3957" started-at="2018-07-26T16:11:05Z" finished-at="2018-07-26T16:11:09Z">
+      <class name="com.qa.tests.PostApiTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.PostApiTest@13969fbe]" name="setUp" is-config="true" duration-ms="12" started-at="2018-07-26T21:41:05Z" finished-at="2018-07-26T21:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postApiTest()[pri:0, instance:com.qa.tests.PostApiTest@13969fbe]" name="postApiTest" duration-ms="7" started-at="2018-07-26T21:41:05Z" finished-at="2018-07-26T21:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postApiTest -->
+      </class> <!-- com.qa.tests.PostApiTest -->
+      <class name="com.qa.tests.GetAPITest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@22f71333]" name="setUp" is-config="true" duration-ms="5" started-at="2018-07-26T21:41:05Z" finished-at="2018-07-26T21:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTest()[pri:1, instance:com.qa.tests.GetAPITest@22f71333]" name="getTest" duration-ms="2110" started-at="2018-07-26T21:41:05Z" finished-at="2018-07-26T21:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method status="PASS" signature="getApiTestwithHeaders()[pri:2, instance:com.qa.tests.GetAPITest@22f71333]" name="getApiTestwithHeaders" duration-ms="1761" started-at="2018-07-26T21:41:07Z" finished-at="2018-07-26T21:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiTestwithHeaders -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@22f71333]" name="setUp" is-config="true" duration-ms="0" started-at="2018-07-26T21:41:07Z" finished-at="2018-07-26T21:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.qa.tests.GetAPITest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
